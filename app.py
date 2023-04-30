@@ -23,4 +23,4 @@ def get_wifi_profiles():
     return jsonify(results)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()
